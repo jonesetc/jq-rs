@@ -1,0 +1,12 @@
+[package]
+name = "jq"
+version = "0.1.0"
+authors = ["Kyle Jones <kyle@jonesetc.com"]
+description = "Rust bindings for libjq"
+repository = "https://github.com/jonesetc/jq-rs"
+readme = "README.md"
+keywords = ["jq", "libjq", "json"]
+license = "MIT"
+
+[dependencies]
+libc = "0.2.18"
